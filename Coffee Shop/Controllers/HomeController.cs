@@ -16,14 +16,14 @@ namespace Coffee_Shop.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "The Coffee Shop only provides the best coffees from around the world!";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact Info";
 
             return View();
         }
