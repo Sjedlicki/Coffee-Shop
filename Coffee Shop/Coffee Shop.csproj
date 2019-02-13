@@ -172,6 +172,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Registration.cshtml" />
     <Content Include="Views\Home\Summary.cshtml" />
+    <Content Include="Views\Home\PasswordMismatch.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
