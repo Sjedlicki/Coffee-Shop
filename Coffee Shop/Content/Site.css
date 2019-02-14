@@ -26,19 +26,133 @@ textarea {
     max-width: 280px;
 }
 
+#Welcome{
+    text-align:center;
+}
+
+#Register{
+    text-align:center;
+    box-shadow: 2px 2px 5px blue;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin:auto;
+    padding: 5px;
+    width: 75px;
+}
+
 #Box {
     text-align:right;
-    background-color:lime;
+    background-color: lightblue;
     background-position: center center;
-    padding: 20px;
+    padding: 25px;
+    border: 5px solid black;
     border-radius:20px;
 
-    height: 500px;
-    width: 350px;
+    height: auto;
+    width: 400px;
     text-align:right;
+    margin-left: 4px;
+}
+
+#Box2 {
+    text-align: right;
+    background-color: red;
+    background-position: center center;
+    padding: 25px;
+    border: 5px solid black;
+    border-radius: 20px;
+    height: auto;
+    width: 400px;
+    text-align: right;
+    margin-left: 4px;
+}
+
+#Heading{
+    text-align:center;
+    background-color: gold;
+    margin-left: 28px;
+    padding-left:15px;
+    padding-right:15px;
+    width: 350px;
+    align-content: center;
+    border: 2px solid white;
+    border-radius:10px;
+    
+}
+
+#Footie {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+    color: yellow;
+    position: fixed;
+    height: auto;
+    width: 300px;
+    bottom: 0;
+    margin-left: 440px;
 }
 
 #Error {
-    text-emphasis-color:red;
-    color:red;
+    width: 967px;
+    border: solid red;
+    padding-left:5px;
+    padding-right: 5px;
+    background-color: yellow;
+    text-emphasis-color: red;
+    color: red;
+}
+
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#Abouts {
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 200px;
+    background-color: ghostwhite;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px green;
+    color: chocolate;
+    height: auto;
+    width: 500px;
+}
+
+#Abt {
+    color: mintcream; 
+    background-color: chocolate; 
+    text-align:center; 
+    width:800px; 
+    border-radius:20px; 
+    margin: auto;
+    border:2px solid saddlebrown;
+    box-shadow: 3px 3px 5px blue;
+}
+
+#Sums{
+    background-color: chocolate;
+    color: blanchedalmond;
+    border-radius: 10px;
+    box-shadow:3px 3px 5px lightgray;
+    padding-top: -1px;
+    padding-bottom: -1px;
+    padding-left: 10px;
+    width: 310px;
+    height: auto;
+    margin-top: 400px;
+}
+
+#Cont {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-color: chocolate;
+    color: blanchedalmond;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px lightgray;
+    padding-top: 01px;
+    padding-bottom: 01px;
+    padding-left: 10px;
+    width: 310px;
+    height: auto;
+    margin-top: 300px;
 }

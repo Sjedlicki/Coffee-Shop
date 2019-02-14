@@ -1,10 +1,10 @@
-﻿<h3>Please fill in form to register!</h3>
+﻿<h3 id="Heading">Please fill in form to register!</h3>
     <div id="Box">
         <form action="Summary" method="post">
 
-            <p>First Name: <input type="text" name="Firstname" required /></p> <br>
+            <p>First Name: <input type="text" name="Firstname"  required /></p> <br>
             <br />
-            <p>Last Name: <input type="text" name="Lastname" required /></p> <br />
+            <p>Last Name: <input type="text" name="Lastname"  required /></p> <br />
             <br />
             <p>Email: <input type="email" name="Email" required /></p><br />
             <br />
@@ -14,8 +14,14 @@
             <br />
             <p>Phone Number: <input type="tel" name="Phone" /></p><br />
 
-            <input type="submit" value="Registration" />
-
-
+            <p>Gender: 
+            <select required>
+                    <option value="Gender">Male</option> 
+                    <option value="Gender">Female</option>
+                    <option value="Gender">Other</option>               
+            </select>
+            </p>                
+             <br/>
+            <input type="submit" value="Register" />
         </form>
     </div>

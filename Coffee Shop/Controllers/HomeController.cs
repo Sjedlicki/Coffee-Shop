@@ -73,6 +73,7 @@ namespace Coffee_Shop.Controllers
                 ViewBag.Pass = u.Password;
                 ViewBag.ConfirmPassword = u.ConfirmPassword;
                 ViewBag.Phone = u.Phone;
+                ViewBag.Gender = u.Gender;
                 return View();
             }
         }

@@ -31,5 +31,7 @@ namespace Coffee_Shop.Models
         [Required]
         [StringLength(36, MinimumLength = 8)]
         public string ConfirmPassword { get; set; }
+
+        public string Gender { get; set; }
     }
 }
