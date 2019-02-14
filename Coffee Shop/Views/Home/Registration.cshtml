@@ -2,9 +2,9 @@
     <div id="Box">
         <form action="Summary" method="post">
 
-            <p>First Name: <input type="text" name="Firstname" required /></p> <br>
+            <p>First Name: <input type="text" name="Firstname" pattern="^[a-zA-Z]{2,36}$" required /></p> <br>
             <br />
-            <p>Last Name: <input type="text" name="Lastname" required /></p> <br />
+            <p>Last Name: <input type="text" name="Lastname" pattern="^[a-zA-Z]{2,36}$" required /></p> <br />
             <br />
             <p>Email: <input type="email" name="Email" required /></p><br />
             <br />
